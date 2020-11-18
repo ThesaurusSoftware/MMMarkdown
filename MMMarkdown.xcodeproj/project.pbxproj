@@ -272,6 +272,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB7CDC4E25655B5800186B40 /* macOS-native-arch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS-native-arch.xcconfig"; sourceTree = "<group>"; };
 		BE1DB5D41514184000B26092 /* MMSpanTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSpanTests.m; sourceTree = "<group>"; };
 		BE1DB5D915143F4200B26092 /* MMBlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBlockTests.m; sourceTree = "<group>"; };
 		BE1DB5DC1515032F00B26092 /* MMLinkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinkTests.m; sourceTree = "<group>"; };
@@ -430,6 +431,7 @@
 		BE813DCB14F893EB00EC9469 = {
 			isa = PBXGroup;
 			children = (
+				AB7CDC4E25655B5800186B40 /* macOS-native-arch.xcconfig */,
 				BE813DDF14F893EB00EC9469 /* Source */,
 				BE813DF114F893EB00EC9469 /* Tests */,
 				BE813DD814F893EB00EC9469 /* Frameworks */,
@@ -799,6 +801,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BE813DCB14F893EB00EC9469;
@@ -1205,6 +1208,7 @@
 		};
 		BED7616B1B374D6700687B36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7CDC4E25655B5800186B40 /* macOS-native-arch.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
